@@ -1,10 +1,10 @@
 # BNA Modernização Guidelines
 
-BNA Modernizacao & Capgemini
+If you are changing code on repositories you are advised to follow the following rules bellow for better organization and work of every contributor:
 
-## Code Chnages:
+## Code Changes:
 
-All code changes should be done under a branch follow the rules underneath:
+All code changes should be done under the following rules underneath:
 
 - No direct commits are allowed to `main` branch! (exc edge cases).
 - All work done work must:
@@ -15,12 +15,14 @@ All code changes should be done under a branch follow the rules underneath:
 
 ## Intervention Type
 
-- Bugfix: to fix non production bugs found
-- Hotfix: to fix any production bugs found
-- Documentation: for any documention update, fix intended
-- Feature: to development of new features or characteristics 
+- Bugfix: to fix non production bugs found.
+- Hotfix: to fix any production bugs found.
+- Documentation: for any documention update, fix or change intended.
+- Feature: to development of new features or characteristics.
 
 ## Commit Message Convention:
+
+Be Descriptive: commit messages should be descriptive and concise, ideally reflecting the change done on the commit. 
 
 Pattern: `(intervention-type): commit message`
 Examples:
@@ -34,7 +36,7 @@ Rules:
 1. Lowercase and Hyphen-Separated
 2. Alphanumeric Characters: Use only alphanumeric characters (a-z, 0–9)
 3. No Continuous Hyphen or Trailing Hyphens
-5. Descriptive: Branch names should be descriptive and concise, ideally reflecting the work done on the branch. 
+5. Be Descriptive: Branch names should be descriptive and concise, ideally reflecting the result you want to achieve with the code changes on the branch. 
 
 ### Branch Prefixes
 
@@ -50,5 +52,5 @@ Pattern: `interventiontype/ticketnumber-featurename`
  *Ticket number can be the Issue number in Github Board*
  
 Examples:
-- `feature/23-add-swagger-to-abc`
-- `bugfix/5-remove-method-abc`
+- `feature/23-introducing-swagger-abc`
+- `bugfix/5-cleanup-services-abc`
