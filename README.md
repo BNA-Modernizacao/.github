@@ -45,7 +45,10 @@ Rules:
 
 #### If there's a task/issue ticket associated
 
-Pattern: `interventiontype/tickernumber-featurename` 
+Pattern: `interventiontype/ticketnumber-featurename` 
+
+ *Ticket number can be the Issue number in Github Board*
+ 
 Examples:
 - `feature/23-add-swagger-to-abc`
 - `bugfix/5-remove-method-abc`
